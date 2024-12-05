@@ -10,6 +10,7 @@ function Card(props){
             <div>
                 <h2>{titolo}</h2>
                 <p> {descrizione} </p>
+            //se true restituisce qualcosa altrimenti non restituisce
                 {isVisitato && <span ><b>  Visitato  </b></span>}
             </div>
         </div>
