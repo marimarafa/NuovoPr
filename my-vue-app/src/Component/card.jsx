@@ -11,6 +11,7 @@ function Card(props){
                 <h2>{titolo}</h2>
                 <p> {descrizione} </p>
                 {isVisitato && <span ><b>  Visitato  </b></span>}
+                {! isVisitato && <span ><b>  Non Visitato  </b></span>}
             </div>
         </div>
 
