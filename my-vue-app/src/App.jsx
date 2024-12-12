@@ -52,7 +52,7 @@ function App() {
 
     return (
       <>
-      <TodoList> </TodoList>
+      
     {/* <Card 
   isVisitato = {true}
   titolo = "Tokyo"
@@ -95,7 +95,8 @@ function App() {
         descrizione ={city.descrizione}>
         </Card>
     ))}
-
+    
+      <TodoList> </TodoList>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
