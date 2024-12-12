@@ -5,6 +5,7 @@ import './App.css'
 import Card from './Component/card'
 import TodoList from './Component/Stato/ToDoList'
 import UserProfile from './Component/Stato/UserProfile'
+import Parent from './Component/ChildToParent/Parent'
 
 function alertClick(){
   alert ("CIAOOO");
@@ -99,6 +100,7 @@ function App() {
 
       <TodoList> </TodoList>
       <UserProfile></UserProfile>
+      <Parent></Parent>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
