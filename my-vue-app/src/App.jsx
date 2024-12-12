@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Component/card'
 import TodoList from './Component/Stato/ToDoList'
+import UserProfile from './Component/Stato/UserProfile'
 
 function alertClick(){
   alert ("CIAOOO");
@@ -95,8 +96,9 @@ function App() {
         descrizione ={city.descrizione}>
         </Card>
     ))}
-    
+
       <TodoList> </TodoList>
+      <UserProfile></UserProfile>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
