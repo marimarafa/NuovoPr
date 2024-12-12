@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Component/card'
+import TodoList from './Component/Stato/ToDoList'
 
 function alertClick(){
   alert ("CIAOOO");
@@ -51,6 +52,7 @@ function App() {
 
     return (
       <>
+      <TodoList> </TodoList>
     {/* <Card 
   isVisitato = {true}
   titolo = "Tokyo"
